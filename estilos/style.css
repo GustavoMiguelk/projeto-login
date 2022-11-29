@@ -36,7 +36,7 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px #302e3367;
 
@@ -48,11 +48,62 @@ section > div#imagem {
     display: block;
     background: var(--cor2) url(../imagens/torre-eiffel.jpg) no-repeat;
     background-size: cover;
-    min-height: 300px; ;
+    min-height: 230px; ;
 }
 
 section#login > div#formulario {
     display: block;
     padding: 20px;
+}
+
+
+
+div#formulario h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div#formulario p {
+    font-size: 0.9rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.campo {
+    margin: auto;
+    text-align: center;
+}
+
+.campo input {
+    background-color: #BACBD9;
+    width:60%;
+    height: 40px ;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+div#btn {
+    text-align: center;
+}
+
+div#btn input {
+    margin-top: 15px;
+    width: 40%;
+    height: 30px;
+    background-color: #6F8CA6;
+    border-radius: 20px;
+    border: none;
+}
+
+div#btn input:hover {
+    border: 2px solid #302E33;
+    cursor: pointer;
+}
+
+div#btn a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #6F8CA6;
 }
 
